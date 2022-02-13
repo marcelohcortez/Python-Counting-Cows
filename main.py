@@ -1,9 +1,3 @@
-""""
-Count the number of cows after 'n' years. We start with 1 cow, and we know that: 
-- Each cow gives birth to one calf every year;
-- A calf grows into a cow after 2 years;
-- Cows and calves never die.
-"""
 class Counting_Cows: #create the class that will handle the functions
     def cows_number(self, year: int) -> int: #count the cows after n years
       if year < 0:
@@ -23,4 +17,4 @@ class Counting_Cows: #create the class that will handle the functions
 
 count = Counting_Cows() #initialize the class and set it to the variable count
 
-count.get_total(15) #use the get_total function inside the class to pass the number of years
+count.get_total(n) #use the get_total function inside the class to pass the number of years
